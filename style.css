@@ -2,8 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "gilroy";
+  /* font-family: "gilroy"; */
   color: white;
+}
+
+@font-face {
+  font-family: kaji;
+  src: url(Kajiro\ Bold.ttf);
+}
+
+@font-face {
+  font-family: kajiWoff;
+  src: url(Kajiro\ Bold.woff2);
 }
 
 a {
@@ -113,7 +123,8 @@ body {
   line-height: 0.9;
   font-weight: 100;
   font-size: 11vw;
-  font-family: "Kajiro";
+  font-family: kaji;
+  font-family: kajiWoff;
 }
 
 .hleft button {
@@ -123,7 +134,8 @@ body {
   font-size: 3vw;
   margin-top: 2vw;
   color: black;
-  font-family: "Kajiro";
+  font-family: kaji;
+  font-family: kajiWoff;
 }
 
 .hright {
